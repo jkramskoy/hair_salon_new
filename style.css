@@ -33,10 +33,15 @@ margin:0;
 
 .footer{
     width:100%;
-    height:60px;
+    height:200px;
     background-color:#D2B48C;
 }
 
+.footer_img{
+    width:100px;
+    height: 100px;
+
+}
 #services{
    display:inline-block;
 }
