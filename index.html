@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTM,CSS,SmartNinja,coding,school">
+     <link rel="stylesheet" href="style.css">
+    <title>Hair Salon</title>
+</head>
+<body>
+
+<div class="navigation" >
+    <span class="float_left">
+        <p><b>Hairdresser Hans</b></p>
+    </span>
+
+    <span class="float_right">
+              <a href="#">Our services</a>
+              <a href="#">Make an appointment</a>
+              <a href="#">FAQ</a>
+              <a href="#">About us</a>
+              <input type="search" value="search">
+    </span>
+
+
+</div>
+
+<div class="main">
+
+    <div class="slide-container">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <span id="slider-image-4"></span>
+        <span id="slider-image-5"></span>
+
+        <div class="image-container">
+            <img src="images/salon emg.jpg" class="slider_image">
+            <img src="images/Fall in love.jpg" class="slider_image">
+            <img src="images/photo2.jpg" class="slider_image">
+            <img src="images/photo1.jpg" class="slider_image">
+            <img src="images/photo3.jpg" class="slider_image">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+         </div>
+
+        <div class="button-container">
+              <a href="#slider-image-1"></a>
+              <a href="#slider-image-2"></a>
+              <a href="#slider-image-3"></a>
+              <a href="#slider-image-4"></a>
+              <a href="#slider-image-5"></a>
+        </div>
+
+    </div>
+
+
+    <div class="categories">
+         <h1>Our services</h1>
+    </div>
+
+    <div id="services">
+
+        <img src="images/styling.jpg" type="styling" class="service_image">
+        <img src="images/coloring.jpg" type="coloring" class="service_image">
+        <img src="images/haircut.jpg" type="haircut" class="service_image">
+
+    </div>
+
+     <div class="categories">
+         <h1>Make an appointment</h1>
+    </div>
+
+    <div id="appointment">
+
+        <div class="appointment-left">
+            <span>
+            <input class="enter_name" type="text" title="search" placeholder="First and last name"/>
+            <br>
+            <input class="enter_phone" type="text" title="search" placeholder="Phone number"/>
+            <br>
+            <input class="enter_date" type="text" title="search" placeholder="Date"/>
+            <br>
+            <p>Other info(haircut wishes ets.)</p>
+            <br>
+            <input type="checkbox" name="agree"> I agree that Hans is the best friseur
+            <br>
+            <input type="button" value="Send">
+            </span>
+
+        </div>
+
+        <div class="appointment_right">
+            <span>
+             <table style="width:40%">
+                <tr>
+                   <th>Day</th>
+                   <th><b>Working hours</b></th>
+                 </tr>
+                 <tr>
+                   <td>Monday</td>
+                   <td>8.00-16.00</td>
+                 </tr>
+                 <tr>
+                     <td>Tuesday</td>
+                     <td>10.00-18.00</td>
+                  </tr>
+                 <tr>
+                     <td>Wednesday</td>
+                     <td>8.00-16.00</td>
+                  </tr>
+                 <tr>
+                     <td>Thursday</td>
+                     <td>8.00-16.00</td>
+                  </tr>
+                 <tr>
+                     <td>Friday</td>
+                     <td>12.00-20.00</td>
+                  </tr>
+                 <tr>
+                     <td>Saturday</td>
+                     <td>8.00-16.00</td>
+                  </tr>
+                 <tr>
+                     <td>Sunday</td>
+                     <td>8.00-12.00</td>
+                  </tr>
+             </table>
+            </span>
+          </div>
+
+     </div>
+
+
+    </div>
+
+
+        <div class="categories">
+            <h1>FAQ (frequently asked questions)</h1>
+         </div>
+    <div class="FAQ">
+
+
+          <div style="border:1px solid">
+              <p><b>Do you have gift certificates?</b></p>
+              <p>Gift certificate are available to purchase in the salon or over the phone.If you purchase a gift certificate over the phone,we can either mail it to your lucky recipient or simply keep it in our files.Elixir salon gift certificates are not redeemable for cash or refundable.</p>
+          </div>
+
+          <div style="border:1px solid" >
+               <p><b>Can I bring my pet along?</b></p>
+          </div>
+
+          <div style="border:1px solid" >
+            <p><b>What awards did you receive so far?</b></p>
+          </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
